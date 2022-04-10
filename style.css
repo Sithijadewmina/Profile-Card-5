@@ -17,7 +17,8 @@ body {
 
 .profile-container {
     position        : relative;
-    background-color: #fff;
+    background      : -webkit-gradient(linear, left top, right bottom, from(rgba(30, 30, 57, 0.5)), to(rgba(30, 30, 57, 0.3)));
+    background      : linear-gradient(to right bottom, rgba(30, 30, 57, 0.5), rgba(30, 30, 57, 0.3));
     width           : 350px;
     padding         : 100px 50px 40px;
     border-radius   : 12px;
